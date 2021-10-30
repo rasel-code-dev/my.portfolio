@@ -1,8 +1,0 @@
-node_modules
-.DS_Store
-dist
-dist-ssr
-*.local
-api
-src/asserts/fontawesome-free
-src/asserts/@fontawesome-pro-5.12.0-web

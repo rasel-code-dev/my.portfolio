@@ -1,0 +1,142 @@
+// input.scss
+.form-group {
+  box-sizing: border-box;
+  
+  label{
+    display: flex;
+    min-width: 10px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--subtitle-color);
+    &.required{
+      &:after{
+        content: "*";
+        display: block;
+        color: red;
+        font-size: 16px;
+        margin-left: 3px;
+      }
+    }
+  }
+  
+  input, textarea {
+    box-sizing: border-box;
+    outline: none;
+    width: 100%;
+    border-radius: 4px;
+    background: var(--input-bg) !important;
+    color: #959595;
+    padding: 8px;
+    border: 1px solid #8282821a;
+    font-family: Poppins, serif;
+    transition: all .5s ease;
+    display: block;
+    box-shadow: var(--input-shadow);
+    
+    &:hover, &:focus { border-color: #94bcff85;}
+    
+    &[type="button"]{
+      text-align: start;
+      cursor: pointer;
+    }
+  }
+  
+  
+  
+  textarea {
+    min-height: 150px;
+  }
+  
+  margin: 8px 0px;
+}
+
+.hidden-input-file{
+  
+  display: none !important;
+}
+
+
+// file.scss
+.image-upload-form{
+  .image-uplaod-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    background: white;
+    i{
+      pointer-events: none;
+      font-size: 20px;
+    }
+  }
+  
+}
+
+.file-preview-image{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  
+  .image-uplaod-button{
+    height: 5rem !important;
+    align-self: flex-start;
+  }
+  .img_wrapper{
+    position: relative;
+    margin: 5px;
+    height: 10.8rem;
+    //width: 12.8rem;
+    border-radius: .8rem;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);;
+    &:hover > .remove-image{ display: block }
+    img{
+      height: 100%;
+      width: auto;
+    }
+    .remove-image{
+      transition: all .4s ease;
+      display: none;
+      width: 20px;
+      text-align: center;
+      height: 20px;
+      color: #ff0000;
+      position: absolute;
+      z-index: 1;
+      line-height: 20px;
+      top: 4px;
+      border-radius: 100%;
+      right: 4px;
+      background: #91a0f9;
+      cursor: pointer;
+    }
+    &:hover > .cover-image{ display: flex }
+    .cover-image{
+      display: none;
+      position: absolute;
+      z-index: 1;
+      top: 6px;
+      background: #d0d0d0;
+      color: #3a3a3a;
+      left: 6px;
+      width: 22px;
+      height: 22px;
+      align-items: center;
+      justify-content: center;
+      border-radius: 100%;
+      cursor: pointer;
+      i{
+        font-size: 11px;
+      }
+    }
+    .active-cover-image{
+      background: #d57fe4;
+      color: #ff2d2d;
+    }
+  }
+  
+}
+
+

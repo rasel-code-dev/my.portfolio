@@ -1,0 +1,276 @@
+
+$hero-bg-2: linear-gradient(to right, #eeaeca 0%, #71b2ff 100%);
+$hero-bg-mobile: linear-gradient(296deg, #14e16673 19%, #4461ff66 83%);
+$primary: #5896ff;
+$primary-2: #ff9cad;
+$section-odd: #97bdff17;
+$white: #ffffff;
+$title-color: #595959;
+//$para-color: #393939;
+$para-color: #737373;
+$sub-title-color: grey;
+$hero-title-color: #ff5722;
+$shadow1: 0 0 18px 0px rgb(127 126 126 / 25%);
+$shadow2: 0 18px 24px rgb(0 0 0 / 15%);
+
+$shadow-white-thin: 0 0 7px 1px #e8e8e8c2;
+$shadow-white-thin-hover: 0 0 8px 4px #e8e8e8e6;
+$shadow-dark-thin: 0 0 7px 1px #1d1d1d6e;
+$shadow-dark-thin-hover: 0 0 8px 4px #2121216b;
+
+$input-shadow: 0 1px 12px 0px #a9a9a92e;
+$input-shadow-hover: 0 0 8px 4px #2121216b;
+$input-shadow-dark: 0 1px 5px 0px #18181870;
+$input-shadow-dark-hover: 0 1px 5px 0px #18181870;
+
+
+$black: #1b1f23;
+$white: #fff;
+
+$dark-1: #404040;
+$dark-2: #363636;
+$dark-3: #343434;
+$dark-4: #313131;
+$dark-5: #2d2d2d;
+
+$light-gray-0: #f5f5f5;
+$light-gray-1: #eaeaea;
+$light-gray-2: #d2d2d2;
+$light-gray-3: #e2e2e2;
+$light-gray-4: #cecece;
+$light-gray-5: #acacac;
+$light-gray-6: #b1b1b1;
+$light-gray-7: #7d7d7d;
+$light-gray-8: #f5f5f5cc;
+
+$gray-0: #fafbfc;
+$gray-1: #f6f8fa;
+$gray-2: #909dab;
+$gray-3: #768390;
+$gray-4: #636e7b;
+$gray-5: #545d68;
+$gray-6: #444c56;
+$gray-7: #373e47;
+$gray-8: #2d333b;
+$gray-9: #22272e;
+//
+//
+//
+//$blue-0: #c6e6ff;
+//$blue-1: #96d0ff;
+//$blue-2: #6cb6ff;
+//$blue-3: #539bf5;
+//$blue-4: #4184e4;
+//$blue-5: #316dca;
+//$blue-6: #255ab2;
+//$blue-7: #1b4b91;
+//$blue-8: #143d79;
+//$blue-9: #0f2d5c;
+//
+//
+//
+//$green-0: #b4f1b4;
+//$green-1: #8ddb8c;
+//$green-2: #6bc46d;
+//$green-3: #57ab5a;
+//$green-4: #46954a;
+//$green-5: #347d39;
+//$green-6: #2b6a30;
+//$green-7: #245829;
+//$green-8: #1b4721;
+//$green-9: #113417;
+//
+//
+//$yellow-0: #fbe090;
+//$yellow-1: #eac55f;
+//$yellow-2: #daaa3f;
+//$yellow-3: #c69026;
+//$yellow-4: #ae7c14;
+//$yellow-5: #966600;
+//$yellow-6: #805400;
+//$yellow-7: #6c4400;
+//$yellow-8: #593600;
+//$yellow-9: #452700;
+//
+//
+//$orange-0: #ffddb0;
+//$orange-1: #ffbc6f;
+//$orange-2: #f69d50;
+//$orange-3: #e0823d;
+//$orange-4: #cc6b2c;
+//$orange-5: #ae5622;
+//$orange-6: #94471b;
+//$orange-7: #7f3913;
+//$orange-8: #682d0f;
+//$orange-9: #4d210c;
+//
+//
+//$red-0: #ffd8d3;
+//$red-1: #ffb8b0;
+//$red-2: #ff938a;
+//$red-3: #f47067;
+//$red-4: #e5534b;
+//$red-5: #c93c37;
+//$red-6: #ad2e2c;
+//$red-7: #922323;
+//$red-8: #78191b;
+//$red-9: #78191b;
+//
+//
+//$purple-0: #eedcff;
+//$purple-1: #dcbdfb;
+//$purple-2: #dcbdfb;
+//$purple-3: #b083f0;
+//$purple-4: #986ee2;
+//$purple-5: #8256d0;
+//$purple-6: #6b44bc;
+//$purple-7: #5936a2;
+//$purple-8: #472c82;
+//$purple-9: #352160;
+//
+//
+//
+//$pink-0: #ffd7eb;
+//$pink-1: #ffb3d8;
+//$pink-2: #fc8dc7;
+//$pink-3: #e275ad;
+//$pink-4: #c96198;
+//$pink-5: #ae4c82;
+//$pink-6: #983b6e;
+//$pink-7: #7e325a;
+//$pink-8: #69264a;
+//$pink-9: #551639;
+//
+//
+//
+//$auto-black: #cdd9e5;
+//$auto-white: #1c2128;
+//$auto-gray-0: #22272e;
+//$auto-gray-1: #2d333b;
+//$auto-gray-2: #373e47;
+//$auto-gray-3: #444c56;
+//$auto-gray-4: #545d68;
+//$auto-gray-5: #636e7b;
+//$auto-gray-6: #768390;
+//$auto-gray-7: #909dab;
+//$auto-gray-8: #adbac7;
+//
+//
+//$auto-gray-9: #cdd9e5;
+//$auto-blue-0: #0f2d5c;
+//$auto-blue-1: #143d79;
+//$auto-blue-2: #1b4b91;
+//$auto-blue-3: #255ab2;
+//$auto-blue-4: #316dca;
+//$auto-blue-5: #4184e4;
+//$auto-blue-6: #539bf5;
+//$auto-blue-7: #6cb6ff;
+//$auto-blue-8: #96d0ff;
+//$auto-blue-9: #c6e6ff;
+//
+//
+//
+//$auto-green-0: #113417;
+//$auto-green-1: #1b4721;
+//$auto-green-2: #245829;
+//$auto-green-3: #2b6a30;
+//$auto-green-4: #347d39;
+//$auto-green-5: #46954a;
+//$auto-green-6: #57ab5a;
+//$auto-green-7: #6bc46d;
+//$auto-green-8: #8ddb8c;
+//$auto-green-9: #b4f1b4;
+//
+//
+//
+//$auto-yellow-0: #452700;
+//$auto-yellow-1: #593600;
+//$auto-yellow-2: #6c4400;
+//$auto-yellow-3: #805400;
+//$auto-yellow-4: #966600;
+//$auto-yellow-5: #ae7c14;
+//$auto-yellow-6: #c69026;
+//$auto-yellow-7: #daaa3f;
+//$auto-yellow-8: #eac55f;
+//$auto-yellow-9: #fbe090;
+//
+//
+//
+//$auto-orange-0: #4d210c;
+//$auto-orange-1: #682d0f;
+//$auto-orange-2: #7f3913;
+//$auto-orange-3: #94471b;
+//$auto-orange-4: #ae5622;
+//$auto-orange-5: #cc6b2c;
+//$auto-orange-6: #e0823d;
+//$auto-orange-7: #f69d50;
+//$auto-orange-8: #ffbc6f;
+//$auto-orange-9: #ffddb0;
+//
+//
+//
+//$auto-red-0: #78191b;
+//$auto-red-1: #78191b;
+//$auto-red-2: #922323;
+//$auto-red-3: #ad2e2c;
+//$auto-red-4: #c93c37;
+//$auto-red-5: #e5534b;
+//$auto-red-6: #f47067;
+//$auto-red-7: #ff938a;
+//$auto-red-8: #ffb8b0;
+//$auto-red-9: #ffd8d3;
+//
+//
+//
+//$auto-purple-0: #352160;
+//$auto-purple-1: #472c82;
+//$auto-purple-2: #5936a2;
+//$auto-purple-3: #6b44bc;
+//$auto-purple-4: #8256d0;
+//$auto-purple-5: #986ee2;
+//$auto-purple-6: #b083f0;
+//$auto-purple-7: #dcbdfb;
+//$auto-purple-8: #dcbdfb;
+//$auto-purple-9: #eedcff;
+//
+//
+//
+//$auto-pink-0: #551639;
+//$auto-pink-1: #69264a;
+//$auto-pink-2: #7e325a;
+//$auto-pink-3: #983b6e;
+//$auto-pink-4: #ae4c82;
+//$auto-pink-5: #c96198;
+//$auto-pink-6: #e275ad;
+//$auto-pink-7: #fc8dc7;
+//$auto-pink-8: #ffb3d8;
+//$auto-pink-9: #ffd7eb;
+//
+//
+//$text-primary: #adbac7;
+//$text-secondary: #768390;
+//$text-tertiary: #768390;
+//$text-placeholder: #545d68;
+//$text-disabled: #545d68;
+//$text-inverse: #22272e;
+//$text-link: #539bf5;
+//$text-danger: #e5534b;
+//$text-success: #6bc46d;
+//$text-warning: #daaa3f;
+//$text-white: #cdd9e5;
+//$icon-primary: #adbac7;
+//$icon-secondary: #636e7b;
+//$icon-tertiary: #545d68;
+//$icon-info: #6cb6ff;
+//$icon-danger: #e5534b;
+//$icon-success: #6bc46d;
+//$icon-warning: #daaa3f;
+//$border-primary: #444c56;
+//$border-secondary: #373e47;
+//$border-tertiary: #636e7b;
+//$border-overlay: #444c56;
+//$border-inverse: #cdd9e5;
+//$border-info: rgba(65, 132, 228, 0.4);
+//$border-danger: rgba(229, 83, 75, 0.4);
+//$border-success: rgba(87, 171, 90, 0.4);
+//$border-warning: rgba(174, 124, 20, 0.4)

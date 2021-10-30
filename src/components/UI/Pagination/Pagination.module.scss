@@ -1,0 +1,36 @@
+
+
+.pagination_list{
+  display: flex;
+  justify-content: center;
+
+  .pagination_item{
+    user-select: none;
+    margin: 2px;
+    background: white;
+    border-radius: 10%;
+    padding: 0 10px;
+    cursor: pointer;
+    list-style: none;
+    min-width: 30px;
+    text-align: center;
+    transition: all .4s ease;
+    &:not(:last-child){
+      border-right: none;
+    }
+
+    &:hover{
+      background: red;
+      color: white;
+    }
+    &.pagination_item.active{
+      background: red;
+      color: white
+    }
+    i{
+      font-size: 12px;
+      text-align: center;
+      pointer-events: none;
+    }
+  }
+}

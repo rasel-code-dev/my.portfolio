@@ -1,0 +1,15 @@
+@import "src/scss/shared/breakpoint";
+
+.backdrop{
+  width: 100%;
+  background: transparent ;
+  display: block;
+  position: fixed;
+  z-index: 150;
+  opacity: 0;
+  height: 0;
+}
+.open-backdrop{
+  opacity: 1;
+  height: 100%;
+}

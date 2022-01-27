@@ -1,0 +1,8 @@
+.cursor-disable{
+  --disable-color: #c1c1c1;
+  pointer-events:  none;
+  color: var(--disable-color) !important;
+  svg{
+    fill: var(--disable-color);
+  }
+}

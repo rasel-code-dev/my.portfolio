@@ -1,0 +1,13 @@
+
+
+@mixin scrollbar($width, $height){
+  &::-webkit-scrollbar{
+    background: rgba(212, 212, 212, 0.51);
+    width: 5px;
+    height: 3px;
+  }
+  &::-webkit-scrollbar-thumb{
+    background: #ff62a1;
+  }
+}
+

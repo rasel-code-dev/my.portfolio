@@ -1,0 +1,12 @@
+
+.see_more_btn_animated{
+  margin-top: 10px;
+  width: 11px;
+  transform: translateY(-10px);
+  animation: scrollDownAnimation 1s ease-in-out infinite;
+}
+
+@keyframes scrollDownAnimation {
+  0%{ transform: translateY(-10px) }
+  100%{ transform: translateY(0px) }
+}

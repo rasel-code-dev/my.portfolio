@@ -1,0 +1,50 @@
+@import "src/styles/--breakpoint";
+
+
+.social{
+  margin-top: 5px;
+  .social-icon{
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 2px;
+    background: var(--white);
+    border: 1px solid #a9a9a94f;
+    text-align: center;
+    cursor: pointer;
+    transition: all .4s ease;
+    margin: 0 5px;
+    
+    svg{
+      width: 16px;
+      height: 16px;
+    }
+    
+    @include getDown(520px){
+      width: 35px;
+      height: 35px;
+      svg{
+        width: 20px;
+        height: 20px;
+      }
+    }
+    
+    &:nth-child(1){
+      margin-left: 0;
+    }
+    &:hover{
+      background: #5d95ff;
+      i{
+        color: var(--white);
+      }
+    }
+    i{
+      font-size: 14px;
+      color: var(--dark);
+      //color: rgba(87, 87, 87, 0.82);
+    }
+  }
+}

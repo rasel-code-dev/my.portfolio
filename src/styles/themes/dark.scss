@@ -1,0 +1,47 @@
+
+
+@import "../--colors";
+
+
+$cssVariableColorsDark : (
+  color-primary: $primary,
+  color-primary-2: $primary-2,
+  section-odd: $section-odd,
+  white: $dark-1,
+  dark: $white,
+  dark-2: $dark-2,
+  title-color: $white,
+  para-color: $light-gray-2,
+  subtitle-color:$light-gray-2,
+  hero-title-color: $hero-title-color,
+  btn-color: $para-color,
+  hero-gradient-bg: #444444,
+  nav-item-a-color: $white,
+  floating-header-bg: #6f6f6f,
+  section-bg-1: $dark-3,
+  section-bg-2: $dark-1,
+  floating-header-shadow: 0 0 11px 1px #2d2d2d,
+  card-bg: #313131,
+  //card-shadow: 0 0 9px 0px rgb(0 0 0 / 26%),
+  card-shadow-hover: $shadow2,
+  input-bg: $dark-2,
+  footer-bg: $dark-1,
+  card-shadow-2: $shadow-dark-thin,
+  card-shadow-3: $shadow-dark-thin,
+  box-card-shadow: $shadow-dark-thin,
+  card-shadow-2-hover: $shadow-dark-thin-hover,
+  button-disable: #3e3e3e,
+  shadow-3: 1px 4px 13px 1px #00000047, // mobile nav expand shadow
+  modal-shadow: 0px 0px 18px 13px #232323ad,
+  input-shadow: $input-shadow-dark,
+  input-shadow-hover: $input-shadow-dark-hover
+  
+);
+
+
+:root, [data-color-mode=dark][data-dark-theme*=dark], [data-color-mode=dark][data-light-theme*=dark] {
+  // @each item in color map
+  @each $name, $color in $cssVariableColorsDark {
+    --#{$name}: #{$color}
+  }
+}

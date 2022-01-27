@@ -1,0 +1,18 @@
+
+.scroll_item{
+  //width: 400px;
+  //height: 300px;
+  max-height: 200px;
+  overflow: hidden;
+  max-width: 200px !important;
+  min-width: 200px !important;
+  //margin: 10px;
+  //padding: 10px;
+  .img_wrapper{
+    transition: all 1s linear;
+    img{
+      width: 100%;
+      display: flex;
+    }
+  }
+}
